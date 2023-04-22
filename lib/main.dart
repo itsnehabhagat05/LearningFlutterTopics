@@ -11,8 +11,11 @@ class LearnApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+
       theme: ThemeData(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
+        
         primaryColor: Colors.deepPurple,),
       home: Container_Sized() ,
 
