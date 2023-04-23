@@ -16,17 +16,17 @@ class RowsCols extends StatelessWidget {
         height: h,
         width: w,
         color: Colors.yellow,
-        // child: Row(
-        //   // mainAxisAlignment:MainAxisAlignment.center ,
-        //   mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
-        //   crossAxisAlignment: CrossAxisAlignment.start,
+        child: Row(
+          // mainAxisAlignment:MainAxisAlignment.center ,
+          mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
+          crossAxisAlignment: CrossAxisAlignment.center,
 
-        //   children: [
-        //   Container(height: 60,width: 60,color: Colors.red,),
-        //   Container(height: 60,width: 60,color: Colors.blue,),
-        //   Container(height: 60,width: 60,color: Colors.green,),
-        //   Container(height: 60,width: 60,color: Colors.pink,)
-        // ],)
+          children: [
+          Container(height: 60,width: 60,color: Colors.red,),
+          Container(height: 60,width: 60,color: Colors.blue,),
+          Container(height: 60,width: 60,color: Colors.green,),
+          Container(height: 60,width: 60,color: Colors.pink,)
+        ],)
 
         // height: 200,
         // width: 200,        
@@ -40,20 +40,20 @@ class RowsCols extends StatelessWidget {
         //   Container(height: 60,width: 60,color: Colors.green,),
         //   Container(height: 60,width: 60,color: Colors.purple,),
         //   Container(height: 60,width: 60,color: Colors.black,),
-          
+        //   ]  
 
-        child: Column(
+        // child: Column(
           
-          mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
-          crossAxisAlignment: CrossAxisAlignment.center,
+        //   mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
+        //   crossAxisAlignment: CrossAxisAlignment.center,
 
-          children: [
-          Container(height: 60,width: 60,color: Colors.red,),
-          Container(height: 60,width: 60,color: Colors.blue,),
-          Container(height: 60,width: 60,color: Colors.green,),
-          Container(height: 60,width: 60,color: Colors.purple,),
-          Container(height: 60,width: 60,color: Colors.black,)
-        ],)
+        //   children: [
+        //   Container(height: 60,width: 60,color: Colors.red,),
+        //   Container(height: 60,width: 60,color: Colors.blue,),
+        //   Container(height: 60,width: 60,color: Colors.green,),
+        //   Container(height: 60,width: 60,color: Colors.purple,),
+        //   Container(height: 60,width: 60,color: Colors.black,)
+        // ],)
 
       ),
       
