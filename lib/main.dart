@@ -19,7 +19,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home: RowsCols() ,
+      home:ButtonWidget() ,
 
     );
   }
