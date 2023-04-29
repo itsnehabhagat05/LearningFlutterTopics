@@ -36,7 +36,9 @@ class _ListGridState extends State<ListGrid> {
           SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 4),
             itemBuilder: ((context, index) {
+              
               return Card(  
+              
               child: Center(
                 child:Text(fruits[index]),),
             );
