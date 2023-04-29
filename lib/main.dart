@@ -3,6 +3,7 @@ import 'package:learn_flutter/widgets/container_sized.dart';
 import 'package:learn_flutter/widgets/list_grid.dart';
 import 'package:learn_flutter/widgets/rowscols.dart';
 import 'package:learn_flutter/widgets/buttons.dart';
+import 'package:learn_flutter/widgets/snackbar.dart';
 
 void main(){
   runApp(const LearnApp());
@@ -20,7 +21,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:ListGrid() ,
+      home:SnackbarWidget() ,
 
     );
   }
