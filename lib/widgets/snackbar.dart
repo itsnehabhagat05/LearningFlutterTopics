@@ -17,7 +17,7 @@ class SnackbarWidget extends StatelessWidget {
             onPressed: () {
               final snackbar = SnackBar(
                 action: SnackBarAction(
-                  label: 'undu',
+                  label: 'undo',
                   textColor: Colors.blue,
                   onPressed: () {},
                 ),
@@ -25,7 +25,7 @@ class SnackbarWidget extends StatelessWidget {
                 behavior: SnackBarBehavior.floating,
                // padding: EdgeInsets.all(10),
                 duration: const Duration(milliseconds: 3000),
-                backgroundColor: Colors.pink,
+               // backgroundColor: Colors.pink,
                 content: Text('This is a Snack Bar'));
               ScaffoldMessenger.of(context).showSnackBar(snackbar);
             },
