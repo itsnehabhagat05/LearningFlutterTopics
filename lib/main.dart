@@ -4,6 +4,7 @@
 // import 'package:learn_flutter/widgets/buttons.dart';
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/drawers.dart';
 import 'package:learn_flutter/widgets/dismissiable.dart';
 
 
@@ -20,10 +21,10 @@ class LearnApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         
-        primaryColor: Colors.deepPurple,),
-      home:DismissablesWidget() ,
+        primaryColor: Color.fromARGB(255, 55, 133, 196),),
+      home:DrawerWidget() ,
 
     );
   }
