@@ -5,8 +5,7 @@
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 //import 'package:learn_flutter/drawers.dart';
-import 'package:learn_flutter/widgets/Images.dart';
-import 'package:learn_flutter/widgets/alertdialog.dart';
+import 'package:learn_flutter/widgets/bottom_sheet.dart';
 //import 'package:learn_flutter/widgets/dismissiable.dart';
 
 void main(){
@@ -22,10 +21,10 @@ class LearnApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         
         primaryColor: Color.fromARGB(255, 55, 133, 196),),
-      home:AlertWidget() ,
+      home:BottomSheetWidget() ,
 
     );
   }
