@@ -6,6 +6,7 @@
 import 'package:flutter/material.dart';
 //import 'package:learn_flutter/drawers.dart';
 import 'package:learn_flutter/widgets/Images.dart';
+import 'package:learn_flutter/widgets/alertdialog.dart';
 //import 'package:learn_flutter/widgets/dismissiable.dart';
 
 void main(){
@@ -24,7 +25,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.dark,
         
         primaryColor: Color.fromARGB(255, 55, 133, 196),),
-      home:ImagesWidget() ,
+      home:AlertWidget() ,
 
     );
   }
