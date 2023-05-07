@@ -4,9 +4,9 @@
 // import 'package:learn_flutter/widgets/buttons.dart';
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/drawers.dart';
-import 'package:learn_flutter/widgets/dismissiable.dart';
-
+//import 'package:learn_flutter/drawers.dart';
+import 'package:learn_flutter/widgets/Images.dart';
+//import 'package:learn_flutter/widgets/dismissiable.dart';
 
 void main(){
   runApp(const LearnApp());
@@ -24,7 +24,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.dark,
         
         primaryColor: Color.fromARGB(255, 55, 133, 196),),
-      home:DrawerWidget() ,
+      home:ImagesWidget() ,
 
     );
   }
