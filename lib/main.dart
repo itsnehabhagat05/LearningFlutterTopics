@@ -4,11 +4,7 @@
 // import 'package:learn_flutter/widgets/buttons.dart';
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/widgets/animated_text.dart';
-import 'package:learn_flutter/widgets/bottom_nav.dart';
-import 'package:learn_flutter/widgets/dismissiable.dart';
-import 'package:learn_flutter/widgets/drop_down.dart';
-import 'package:learn_flutter/widgets/form.dart';
+import 'package:learn_flutter/widgets/stack.dart';
 
 
 void main(){
@@ -27,7 +23,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:FormWidget() ,
+      home:StackWidget() ,
 
     );
   }
