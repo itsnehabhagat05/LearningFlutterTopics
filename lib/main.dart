@@ -5,6 +5,7 @@
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/widgets/stack.dart';
+import 'package:learn_flutter/widgets/tab_bar.dart';
 
 
 void main(){
@@ -23,7 +24,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:StackWidget() ,
+      home:TabBarWidget() ,
 
     );
   }
