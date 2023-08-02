@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:learn_flutter/widgets/image_picker.dart';
 import 'package:learn_flutter/widgets/stack.dart';
 import 'package:learn_flutter/widgets/tab_bar.dart';
+import 'package:learn_flutter/widgets/uiclone.dart';
 
 
 void main(){
@@ -25,7 +26,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:ImagePickerWidget() ,
+      home:UiClone() ,
 
     );
   }
