@@ -5,6 +5,7 @@
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/widgets/image_picker.dart';
+import 'package:learn_flutter/widgets/insta.dart';
 import 'package:learn_flutter/widgets/stack.dart';
 import 'package:learn_flutter/widgets/tab_bar.dart';
 import 'package:learn_flutter/widgets/uiclone.dart';
@@ -26,7 +27,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:UiClone() ,
+      home:InstaUI() ,
 
     );
   }
