@@ -4,6 +4,7 @@
 // import 'package:learn_flutter/widgets/buttons.dart';
 // import 'package:learn_flutter/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/widgets/gradient.dart';
 import 'package:learn_flutter/widgets/image_picker.dart';
 import 'package:learn_flutter/widgets/insta.dart';
 import 'package:learn_flutter/widgets/stack.dart';
@@ -27,7 +28,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.light,
         
         primaryColor: Colors.deepPurple,),
-      home:InstaUI() ,
+      home:Mygrad() ,
 
     );
   }

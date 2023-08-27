@@ -52,16 +52,16 @@ class InstaUI extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          SizedBox(height: 10),
+                          SizedBox(height: 35),
                         Container(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children:[
                               profiledetail('150', 'Post'),
                               SizedBox(width: 10),
-                              profiledetail('5k', 'Followers'),
+                              profiledetail('98', 'Followers'),
                               SizedBox(width: 10),
-                              profiledetail('100', 'Following')
+                              profiledetail('240', 'Following')
                             ]
                             ),),
     
@@ -109,7 +109,7 @@ class InstaUI extends StatelessWidget {
                 //color: Colors.blue,
                 child:ListView.builder(
                   scrollDirection: Axis.horizontal,
-                  itemCount: 10,
+                  itemCount: 3,
                   itemBuilder:(context, index) {
                   return Column(
                     children: [
