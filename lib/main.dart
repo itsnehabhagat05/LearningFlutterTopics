@@ -1,15 +1,7 @@
-//import 'package:learn_flutter/widgets/container_sized.dart';
-// import 'package:learn_flutter/widgets/list_grid.dart';
-// import 'package:learn_flutter/widgets/rowscols.dart';
-// import 'package:learn_flutter/widgets/buttons.dart';
-// import 'package:learn_flutter/widgets/snackbar.dart';
+
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/widgets/gradient.dart';
-import 'package:learn_flutter/widgets/image_picker.dart';
-import 'package:learn_flutter/widgets/insta.dart';
-import 'package:learn_flutter/widgets/stack.dart';
-import 'package:learn_flutter/widgets/tab_bar.dart';
-import 'package:learn_flutter/widgets/uiclone.dart';
+import 'package:learn_flutter/widgets/cartesianChart.dart';
+
 
 
 void main(){
@@ -25,10 +17,10 @@ class LearnApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         
         primaryColor: Colors.deepPurple,),
-      home:Mygrad() ,
+      home:CartesianChartWidget() ,
 
     );
   }
