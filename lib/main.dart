@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/widgets/cartesianChart.dart';
 import 'package:learn_flutter/widgets/pieChart.dart';
+import 'package:learn_flutter/widgets/radialChart.dart';
 
 
 
@@ -21,7 +22,7 @@ class LearnApp extends StatelessWidget {
         brightness: Brightness.dark,
         
         primaryColor: Colors.deepPurple,),
-      home:PieChartWidget() ,
+      home:RadialChartWidget() ,
 
     );
   }
